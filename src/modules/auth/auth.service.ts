@@ -92,7 +92,6 @@ export class AuthService {
       httpOnly: true,
       secure: config.cookie.secure,
       sameSite: config.cookie.sameSite,
-      path: '/',
       maxAge: config.cookie.accessMaxAge,
     });
 
@@ -100,7 +99,6 @@ export class AuthService {
       httpOnly: true,
       secure: config.cookie.secure,
       sameSite: config.cookie.sameSite,
-      path: '/',
       maxAge: config.cookie.refreshMaxAge,
     });
 
