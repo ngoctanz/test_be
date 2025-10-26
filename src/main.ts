@@ -25,7 +25,7 @@ async function bootstrap() {
   // Mở CORS
   const allowedOrigins = [
     'http://localhost:3000',
-    'https://tetstdpfe.vercel.app',
+    'https://tetstdpfe1.vercel.app',
     configService.get<string>('DOMAIN_FRONTEND'),
   ].filter(Boolean);
 
